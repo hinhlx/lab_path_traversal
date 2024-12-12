@@ -1,0 +1,29 @@
+{
+  "title": "Bruteforce Attack Lab",
+  "description": "Test your skills with a bruteforce attack.",
+  "prerequisites": [],
+  "outcomes": ["Performing a successful bruteforce attack"],
+  "state": "UNRELEASED",
+  "show_stepper_bar": true,
+  "levels": [
+    {
+      "title": "Bruteforce Attack",
+      "level_type": "TRAINING_LEVEL",
+      "order": 0,
+      "estimated_duration": 30,
+      "minimal_possible_solve_time": 10,
+      "answer": "viettel@123",
+      "answer_variable_name": null,
+      "variant_answers" : false,
+      "content": "In this level, your task is to perform a bruteforce attack to guess the password of the target user. The answer is the correct password you find. Username: user, Password: Password123",
+      "solution": "Use a tool like 'hydra' to perform a dictionary attack on the target service with the desired username. For example: 'hydra -l target_user -P wordlist.txt target_service://target_ip:target_port'.",
+      "incorrect_answer_limit": 5,
+      "attachments": [],
+      "max_score": 100,
+      "expected_commands": ["hydra"],
+      "commands_required": true
+    }
+  ],
+  "estimated_duration": 35,
+  "variant_sandboxes": false
+}

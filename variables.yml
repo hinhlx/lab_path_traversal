@@ -1,0 +1,6 @@
+telnet_port:
+    type: port
+    min: 1500
+
+bruteforce_password:
+    type: text
