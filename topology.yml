@@ -1,4 +1,4 @@
-name: path_traversal
+name: pathTraversal
 hosts:
   - name: server
     base_box: 
