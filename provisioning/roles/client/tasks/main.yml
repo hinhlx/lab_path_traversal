@@ -37,7 +37,7 @@
   copy:
     dest: /etc/apache2/sites-available/pathTraversal.conf
     content: |
-      <VirtualHost *:80>
+      <VirtualHost *:8080>
           DocumentRoot /var/www/html/pathTraversal
           <Directory /var/www/html/pathTraversal>
               AllowOverride All

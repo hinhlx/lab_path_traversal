@@ -1,1 +1,1 @@
-KMA_FLAG{privilege_escalation}
+KMA_FLAG{path_traversal}
